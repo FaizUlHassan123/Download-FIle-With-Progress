@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     let percentageLabel: UILabel = {
         let label = UILabel()
         label.text = "0%"
-        label.textColor = UIColor.init(named: "Splash")
+        label.textColor = .black
         label.textAlignment = .center
         label.font = UIFont.boldSystemFont(ofSize:12)
         return label
