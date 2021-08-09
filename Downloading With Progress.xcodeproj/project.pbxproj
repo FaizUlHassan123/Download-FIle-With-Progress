@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EC3A39C26C11B1800347BCC /* Download FIle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Download FIle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC3A39C26C11B1800347BCC /* Downloading With Progress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Downloading With Progress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC3A39F26C11B1800347BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC3A3A126C11B1800347BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EC3A3A326C11B1800347BCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		5EC3A39326C11B1700347BCC = {
 			isa = PBXGroup;
 			children = (
-				5EC3A39E26C11B1800347BCC /* Download FIle */,
+				5EC3A39E26C11B1800347BCC /* Download */,
 				5EC3A39D26C11B1800347BCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		5EC3A39D26C11B1800347BCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EC3A39C26C11B1800347BCC /* Download FIle.app */,
+				5EC3A39C26C11B1800347BCC /* Downloading With Progress.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EC3A39E26C11B1800347BCC /* Download FIle */ = {
+		5EC3A39E26C11B1800347BCC /* Download */ = {
 			isa = PBXGroup;
 			children = (
 				5EC3A39F26C11B1800347BCC /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				5EC3A3AA26C11B1B00347BCC /* LaunchScreen.storyboard */,
 				5EC3A3AD26C11B1B00347BCC /* Info.plist */,
 			);
-			path = "Download FIle";
+			path = Download;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EC3A39B26C11B1800347BCC /* Download FIle */ = {
+		5EC3A39B26C11B1800347BCC /* Downloading With Progress */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EC3A3B026C11B1B00347BCC /* Build configuration list for PBXNativeTarget "Download FIle" */;
+			buildConfigurationList = 5EC3A3B026C11B1B00347BCC /* Build configuration list for PBXNativeTarget "Downloading With Progress" */;
 			buildPhases = (
 				5EC3A39826C11B1800347BCC /* Sources */,
 				5EC3A39926C11B1800347BCC /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Download FIle";
+			name = "Downloading With Progress";
 			productName = "Download FIle";
-			productReference = 5EC3A39C26C11B1800347BCC /* Download FIle.app */;
+			productReference = 5EC3A39C26C11B1800347BCC /* Downloading With Progress.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EC3A39726C11B1800347BCC /* Build configuration list for PBXProject "Download FIle" */;
+			buildConfigurationList = 5EC3A39726C11B1800347BCC /* Build configuration list for PBXProject "Downloading With Progress" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EC3A39B26C11B1800347BCC /* Download FIle */,
+				5EC3A39B26C11B1800347BCC /* Downloading With Progress */,
 			);
 		};
 /* End PBXProject section */
@@ -287,12 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Download FIle/Info.plist";
+				DEVELOPMENT_TEAM = PSVYUHEE88;
+				INFOPLIST_FILE = Download/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.development.Download-FIle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasol.aewidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +306,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Download FIle/Info.plist";
+				DEVELOPMENT_TEAM = PSVYUHEE88;
+				INFOPLIST_FILE = Download/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan.development.Download-FIle";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasol.aewidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EC3A39726C11B1800347BCC /* Build configuration list for PBXProject "Download FIle" */ = {
+		5EC3A39726C11B1800347BCC /* Build configuration list for PBXProject "Downloading With Progress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC3A3AE26C11B1B00347BCC /* Debug */,
@@ -329,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EC3A3B026C11B1B00347BCC /* Build configuration list for PBXNativeTarget "Download FIle" */ = {
+		5EC3A3B026C11B1B00347BCC /* Build configuration list for PBXNativeTarget "Downloading With Progress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC3A3B126C11B1B00347BCC /* Debug */,
